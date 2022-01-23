@@ -2,20 +2,18 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-top: 10px;
     padding: 0;
+    background-color: #607D8B;
 }
 
 a {
     text-decoration: none;
     margin-left: 15px;
 }
-a:link {color: black;}
-
-
-
+a.link {color: black;}
+a:visited {color: black;}
 .blockquote-box {
-    background-color: rgba(243, 152, 40, 0.911);
+    background-color: #78909C;
     border-radius: 6px;
-    height: 250px;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -43,10 +41,11 @@ a:link {color: black;}
 }
 .apple-head {
     margin-left: 10px;
+    font-variant: small-caps;
 }
 
 .header {
-    background-color: rgba(243, 152, 40, 0.911);;
+    background-color: #78909C;
     display: flex;
     flex-direction: row;
     border-radius: 6px;
@@ -55,12 +54,14 @@ a:link {color: black;}
     align-items: center;
 }
 .links {
-    margin-left: 250px;
+    display: block;
+    margin-left: 50%;
+    font-variant: small-caps;
 }
 
 .maincard {
     display: flex;
-    background-color: coral;
+    background-color: #78909C;
     border-radius: 6px;
     margin-left: 10px;
     margin-right: 10px;
@@ -87,7 +88,7 @@ a:link {color: black;}
     border-radius: 6px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: rgba(226, 185, 135, 0.911);
+    background-color: #78909C;
     justify-content: center;
     margin: 5px 10px 0 10px;
     padding: 25px;
@@ -104,7 +105,7 @@ a:link {color: black;}
 .subscribe {
     display: flex;
     flex-direction: column;
-    background-color: coral;
+    background-color: #78909C;
     margin: 5px 10px 0 10px;
     border-radius: 6px;
     padding: 10px 0 10px 0;
@@ -114,10 +115,10 @@ a:link {color: black;}
 }
 
 .button {
-    background-color: rgb(26, 212, 2);
+    background-color:#039BE5;
     width: 250px;
     height: 50px;
-    border: 1px solid transparent;
+    border: 1px solid black;
     border-radius: 10px;
     font-size: 20px;
     font-weight: 600;
@@ -125,14 +126,14 @@ a:link {color: black;}
 
 footer {
     display: flex;
-    background-color: coral;
     height: 50px;
     text-align: center;
     align-content: center;
     border-radius: 6px;
     margin: 5px 10px 0 10px;
     justify-content: center;
-        margin-top: 5px;
+    margin-top: 5px;
+    font-variant: small-caps;
 }
 
 
