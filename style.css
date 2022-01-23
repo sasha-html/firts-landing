@@ -1,0 +1,138 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 15px;
+}
+a:link {color: black;}
+
+
+
+.blockquote-box {
+    background-color: rgba(243, 152, 40, 0.911);
+    border-radius: 6px;
+    height: 250px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    padding: 25px;
+}
+.blockquote {
+    height: 80%;
+    width: 80%;
+    align-self: center;
+    justify-content: center;
+
+}
+.blockquote-text {
+    font-size: 24px;
+    font-weight: 600;
+}
+.blockquote-author {
+    text-align: right;
+}
+.head-logo {
+    width: 250px;
+}
+.apple-head {
+    margin-left: 10px;
+}
+
+.header {
+    background-color: rgba(243, 152, 40, 0.911);;
+    display: flex;
+    flex-direction: row;
+    border-radius: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+}
+.links {
+    margin-left: 250px;
+}
+
+.maincard {
+    display: flex;
+    background-color: coral;
+    border-radius: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+
+.maincard-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.card-title {
+    text-align: center;
+}
+.cards {
+    display: flex;
+    text-align: center;
+    height: 250px;
+    border-radius: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(226, 185, 135, 0.911);
+    justify-content: center;
+    margin: 5px 10px 0 10px;
+    padding: 25px;
+    
+}
+
+.card {
+    display: inline-block;
+    text-align: center;
+    margin-left: 20px;
+    align-self: center;
+}
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    background-color: coral;
+    margin: 5px 10px 0 10px;
+    border-radius: 6px;
+    padding: 10px 0 10px 0;
+    align-items: center;
+    
+
+}
+
+.button {
+    background-color: rgb(26, 212, 2);
+    width: 250px;
+    height: 50px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer {
+    display: flex;
+    background-color: coral;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    border-radius: 6px;
+    margin: 5px 10px 0 10px;
+    justify-content: center;
+        margin-top: 5px;
+}
+
+
