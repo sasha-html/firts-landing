@@ -21,6 +21,10 @@ a {
 a.link {color: black;}
 a:visited {color: black;}
 
+li {
+    list-style-type: none;
+}
+
 .blockquote-box {
     background-color: #78909C;
     border-radius: 6px;
@@ -63,11 +67,16 @@ a:visited {color: black;}
     margin-right: 10px;
     align-items: center;
 }
+
+.links li{
+    display: inline-block;
+    font-variant: small-caps;
+}
+
 .links {
     display: flex;
-    text-align: center;
-    font-variant: small-caps;
-    padding-left: 40px;
+    flex-direction: row;
+    
 }
 
 .maincard {
